@@ -17,3 +17,5 @@ esy '@release' install
 esy '@release' run -f --checkhealth
 esy '@release' run --help
 esy '@release' create
+
+cd ..
