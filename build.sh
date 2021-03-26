@@ -17,5 +17,3 @@ esy '@release' install
 esy '@release' run -f --checkhealth
 esy '@release' run --help
 esy '@release' create
-
-cp -R _release/Onivim2.app ..
