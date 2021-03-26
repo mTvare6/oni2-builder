@@ -1,7 +1,7 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 npm install -g esy
 brew install cmake libpng ragel libtool gettext git npm
-PATH='usr/local/bin:$PATH'
+PATH='/usr/local/bin:$PATH'
 ulimit -Sn 4096 
 
 git clone https://github.com/onivim/oni2
