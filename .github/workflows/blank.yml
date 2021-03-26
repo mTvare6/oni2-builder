@@ -16,7 +16,7 @@ jobs:
     - name: bash build.sh
       run: bash build.sh
     - name: zip app
-      run: zip -r Onivim2.app onivim.zip
+      run: zip -r ./oni2/_release/Onivim2.app ./onivim.zip
     - name: 'Upload Artifact '
       uses: actions/upload-artifact@v2
       with:
