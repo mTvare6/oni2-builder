@@ -13,7 +13,7 @@ jobs:
     runs-on: macos-latest
     steps:
     - uses: actions/checkout@v2
-    - name: bash build.sh
+    - name: bash mac-build.sh
       run: bash build.sh
     - name: zip app
       run: zip -r onivim.zip ./oni2/_release/Onivim2.app/
